@@ -1,0 +1,25 @@
+.card-title {
+    
+        font-family: "Spartan", sans-serif;
+    
+}
+
+#titulo {
+
+    font-family: "Spartan", sans-serif;
+    padding-top: 5%;
+
+}
+
+
+#seccion {
+
+height: 10vh;
+
+}
+
+
+.row {
+    padding-top: 10%;  
+    padding-bottom: 10%;
+}
