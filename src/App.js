@@ -6,7 +6,6 @@ import Carta from './components/pages/Carta/Carta';
 import Footer from './components/pages/Footer/Footer';
 import CarritoContextProvider from './components/pages/context/carritoContext';
 import CarritoView from './components/pages/views/CarritoView';
-import PortadaView from './components/pages/Products/PortadaView';
 
 
 function App() {
@@ -17,8 +16,7 @@ function App() {
       <Navbar />
       <Switch>
         <Route path="/" exact component={Home}/>
-        <Route path="/carta" component={Carta}/>
-        <Route path="/portada" component={PortadaView}/>        
+        <Route path="/carta" component={Carta}/>      
         <Route path="/carrito" component={CarritoView}/>
       </Switch>
       <Footer />
